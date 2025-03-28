@@ -1,6 +1,7 @@
 # custom
 *.ini
 test.py
+*processed_jobs.txt
 
 # Byte-compiled / optimized / DLL files
 __pycache__/

@@ -2,6 +2,9 @@ import os
 import requests
 from bs4 import BeautifulSoup
 from discord_webhook import DiscordWebhook, DiscordEmbed
+import sys
+
+sys.path.append(os.path.join(os.path.dirname(__file__), '..'))
 from read_config import read_config
 
 def load_processed_jobs(file_path):
